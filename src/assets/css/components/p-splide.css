@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+@media (--md) {
+h7 {
+  color: #ccc;
+  font-size: pxtorem(42);
+  font-size: calc(160 * var(--torem));
+  /* もともとremという関数が存在する */
+  font-size: clamp(5rem, 10vw, 10rem);
+  /* clampはきちんと計算するのが面倒 */
+  /* 最小のフォントサイズ、最大のフォントサイズ、最小値の時のデバイスサイズ、最大値の時のデバイスサイズ */
+  font-size: fluid(80, 160, 375, 1440);
+}
+}
+
+.p-fv {
+  height: 100vh;
+}
+
+.l-header {
+  height: 15%;
+}
+
+
+.p-mv-img-wrapper img {
+  position: relative;
+  height: 85%;
+  margin-right: 0;
+}
