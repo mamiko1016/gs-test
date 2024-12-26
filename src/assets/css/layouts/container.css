@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .l-container {
   container: container / inline-size;
   box-sizing: content-box;

@@ -9,11 +9,11 @@
 
 /* Layouts */
 @import "layouts/container" layer(layouts);
+@import "layouts/header" layer(layouts);
 
 /* Components */
-@import "components/p-splide" layer(components);
+@import "components/splide" layer(components);
+@import "components/mv" layer(components);
 
 /* utilities */
 @import "utilities/visually-hidden" layer(utilities);
-
-

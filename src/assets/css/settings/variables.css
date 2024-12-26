@@ -184,3 +184,20 @@
     --viewport: var(--design-widith-lg);
   }
 }
+
+
+
+
+/* 書き方の見本 */
+@media (--md) {
+h7 {
+  color: #ccc;
+  font-size: pxtorem(42);
+  font-size: calc(160 * var(--torem));
+  /* もともとremという関数が存在する */
+  font-size: clamp(5rem, 10vw, 10rem);
+  /* clampはきちんと計算するのが面倒 */
+  /* 最小のフォントサイズ、最大のフォントサイズ、最小値の時のデバイスサイズ、最大値の時のデバイスサイズ */
+  font-size: fluid(80, 160, 375, 1440);
+}
+}
