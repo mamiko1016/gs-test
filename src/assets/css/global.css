@@ -1,19 +1,40 @@
 @charset "UTF-8";
 @layer settings, base, layouts, vendors, components, utilities;
 
-/* Settings */
+
+
+
+/* =================================
+Settings
+================================= */
 @import "settings/variables" layer(settings);
 
-/* Base */
+
+
+
+/* =================================
+Base
+================================= */
 @import "base/oreset" layer(base);
 
-/* Layouts */
+
+
+/* =================================
+Layouts
+================================= */
 @import "layouts/container" layer(layouts);
 @import "layouts/header" layer(layouts);
 
-/* Components */
+
+
+/* =================================
+Components
+================================= */
 @import "components/splide" layer(components);
 @import "components/mv" layer(components);
 
-/* utilities */
+
+/* =================================
+utilities
+================================= */
 @import "utilities/visually-hidden" layer(utilities);
